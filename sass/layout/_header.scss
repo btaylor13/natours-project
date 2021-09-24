@@ -9,6 +9,8 @@
   background-size: cover;
   background-position: top;
   position: relative;
+  //relatively modern CSS - preface with webkit to make it work in other browsers
+  -webkit-clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
   clip-path: polygon(0 0, 100% 0, 100% 75vh, 0 100%);
 
   &__logo-box {
